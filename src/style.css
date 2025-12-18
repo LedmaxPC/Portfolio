@@ -156,12 +156,15 @@ button:focus {
   }
 }
 .navbar-brand {
-  color: rgb(250, 250, 250) !important;
+  color: rgb(255, 255, 255) !important;
+  background: transparent !important;
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 4em !important;
+  width: auto !important;
+  object-fit: contain;
+  background: transparent !important;
 }
 
 .navbar-nav .nav-link {
